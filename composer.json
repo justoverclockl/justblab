@@ -1,0 +1,52 @@
+{
+    "name": "justoverclock/justblab",
+    "description": "JustBlab Extension for Flarum",
+    "keywords": [
+        "justblab"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.0.0",
+        "afrux/forum-widgets-core": "^0.1.0"
+    },
+    "authors": [
+        {
+            "name": "Marco Colia",
+            "email": "info@flarum.it",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Justoverclock\\JustBlab\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "JustBlab",
+            "category": "features",
+            "icon": {
+                "name": "far fa-comments",
+                "color": "blue",
+                "backgroundColor": "white"
+            }
+        },
+        "flarum-cli": {
+            "modules": {
+                "js": true,
+                "jsCommon": false,
+                "css": true,
+                "locale": true,
+                "gitConf": true,
+                "githubActions": false,
+                "prettier": true,
+                "typescript": false,
+                "bundlewatch": true,
+                "backendTesting": false,
+                "editorConfig": true,
+                "styleci": true
+            }
+        }
+    }
+}

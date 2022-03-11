@@ -1,0 +1,8 @@
+justoverclock-justblab:
+  admin:
+    absoluteEndpoint: Absolute Endpoint
+    absoluteEndpoint-help: Paste here the endpoint of your JustBlab instance
+    onlineUserLabel: "Online Users:"
+    onlineUserLabel-help: Text for the Online Users label
+  forum:
+
